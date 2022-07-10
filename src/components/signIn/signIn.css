@@ -1,0 +1,62 @@
+.olx_navbar-sign_overlay_close {
+  margin: auto;
+}
+.olx__navbar-sign_container input {
+  padding: 1rem;
+}
+
+.olx__navbar-sign_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  /* top: 40px; */
+  right: 0px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.olx__navbar-sign_container p {
+  margin: 1rem 0;
+}
+
+.olx__navbar-links_container p,
+.olx__navbar-sign p,
+.olx__navbar-sign_container p {
+  color: rgb(255, 255, 255);
+  /* font-family: var(--font-family); */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  margin: 0rem 3rem;
+  margin-left: 3;
+  cursor: pointer;
+
+  /* word-spacing: 2px; */
+}
+.olx__navbar-sign button,
+.olx__navbar-sign_container button {
+  /* width: 152px;
+  height: 58px; */
+  padding: 0.5rem;
+  left: 1153px;
+  top: 55px;
+  /* top: 55px; */
+  color: #000000;
+  background-color: #00ffd5;
+  border-radius: 5px;
+  font-family: Inter;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}

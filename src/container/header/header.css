@@ -1,0 +1,49 @@
+.olx__header-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  /* margin: 0; */
+  /* margin-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Gradient__text2 {
+  font-size: small;
+}
+
+.olx__header_bg {
+  /* position: fixed; */
+  width: fit-content;
+  /* left: 0px; */
+  display: block;
+
+  background: linear-gradient(
+    180deg,
+    #020f29 9.38%,
+    #021d3f 88.02%,
+    #042144 100%
+  );
+}
+.olx__header_bg span {
+  display: block;
+}
+
+@media screen and (min-width: 1050px) {
+  .olx__header-content {
+    padding: 0 0rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .olx__header-content {
+    padding: 0 0rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .olx__header-content {
+    padding: 0 1rem;
+  }
+  .Gradient__text2 {
+    font-size: 10px;
+  }
+}
